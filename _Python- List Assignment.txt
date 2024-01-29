@@ -1,0 +1,72 @@
+Assignment
+
+Que 1) How can we store a single quote (‘) as a string in a variable?
+Ans =  s = "i don't like"
+ print(s)       //"i don't like"
+
+Que 2) Refer the below variable:
+x = ‘a'
+Here, is x a character type or string type variable? Support your answer w1th an explanation.
+Ans  = The variable x, assigned the value 'a', is a string type variable in Python. In Python, a single character enclosed in single or double quotes is still treated as a string. So, even though 'a' contains only one character, it is considered a string.
+In this case, x is a string variable holding the character 'a'. If you were to check the type of x using the type() function in Python.
+
+Que 3) Apply the following functions on this variable: ‘Welcome to Python foundation course'
+find ()
+count()
+len()
+Concatenation
+Ans = # Given string
+x = 'Welcome to Python foundation course'
+
+
+# 1. find()
+find_result = x.find('Python')
+print("find result:- ", find_result)
+
+
+# 2. count()
+count_result = x.count('')
+print("count result:- ",count_result)
+
+
+# 3. len()
+length_result = len(x)
+print("length result:- ",length_result)
+
+
+# 4. Concatenation
+concatenation_result = x + ' - Advanced Topics'
+print("concatination result:- ", concatenation_result)
+
+
+
+Que 4) For the variable: word = ‘PanaJi@122566’
+  Calculate the following:
+Total number of alphabets in lowercase
+Total number of alphabets in uppercase
+Total number of numerical in string 
+Ans = x = "PanaJi@12256"
+lowercase_count = x.islower()
+print(lowercase_count)
+
+
+uppercase_count = x.isupper()
+print(uppercase_count)
+
+
+numerical_count = x.isalnum()
+print(numerical_count)
+
+Que 5) Write a code to store a numerical value inside a variable then convert it into string.
+Ans = #convert the numerical value to a string
+string_value = str(numerical_value)
+print("original numerical value: ", numerical_value)
+print("Converted String Value: ", string_value)
+
+
+print(type(string_value))
+print(type(numerical_value))
+
+
+Github-link= https://github.com/namdevsahil/pythonAssignment/blob/main/Assignment.py
+

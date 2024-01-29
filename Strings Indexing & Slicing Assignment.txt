@@ -1,0 +1,41 @@
+Que 1) Create an empty list.
+Ans = empty_list = []
+type_of_list = type(empty_list)
+print(type_of_list)
+
+
+Que 2) Create a list and add an element to the end of this list.
+Ans = list = []
+list.append("sahil")
+print(list)
+
+
+Que 3) For the above created list print the last element.
+Ans = new_list = ["sahil", 123, "company"]
+last_element = new_list[-1]
+print(last_element)
+
+Que 4) Reverse the above created list.
+Ans = new_list = ["sahil", 123, "company"]
+new_list.reverse()
+print(new_list)
+
+
+Que 5) Sort the above created list.
+Ans = second_list = ["list3", "list1", "list2"]
+second_list.sort()
+print(second_list)
+
+
+Que 6) Create a list of your top three favorite movies, then print the second movie title.
+Ans = 
+top_three_movies = ["Sanam-Teri-kasam", "Red-Notice", "Spider-man"]
+print(top_three_movies[1])
+
+
+Que 7) Create a list of your favorite animals, then use the index() method to  find the position of a specific city on the list and print it.
+Ans =  Cities = ["Banglore","Pune","Delhi","Katni"]
+print(Cities.index("Banglore"))
+
+
+
