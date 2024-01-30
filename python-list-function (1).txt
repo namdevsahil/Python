@@ -1,0 +1,27 @@
+Que 1) What is the syntax for adding an element to a list in python?
+Ans = list = []
+list.append("sahil")
+list.append("name")
+print(list)
+
+Que 2) What is the difference between remove() and pop() function in python?
+Ans = remove() = remove the first occureence of the specified value from the list.
+ex - list.remove(value) 
+pop() = no index is specified, it removes and return the last element from the list.
+ex - list.pop(index)
+
+Que 3) Write a python code to sort a list in descending order.
+Ans = list = ["sahil", "abc", "numeric", "zoya"]
+print(sorted(list))
+
+list1 = [1,9,3,6,2]
+print(sorted(list1))
+
+Que 4) Write a python code to count the number of occurence of an element in a list.
+Ans = list = ["sahil", "abc", "numeric", "zoya","sahil","zoya"]
+print(list.count("zoya"))
+
+Que 5) Write a python code to reverse a list.
+Ans = list = [1,2,3,4,5,6]
+list.reverse()
+print(list)
