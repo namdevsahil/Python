@@ -1,0 +1,23 @@
+Que 1) What is a set in python?
+Ans = set in unorderd collection of unique elements. it is defined placing a comma seperated sequeces of items inside curly '{}'.
+ex - my_set = {1,2,3,4,5}
+print(my_set)
+
+Que 2) How do you create a set in python?
+Ans = my_set = {1,2,3,4,5}
+print(my_set)
+
+Que 3) How do you add elements to a set in python?
+Ans = my_set = {1,2,3}
+my_set.add(4)
+my_set.add(5)
+print("After adding:- ", my_set)
+
+Que 4) How do you remove elements from a set in python?
+Ans = my_set = {1, 2, 3, 4, 5}
+my_set.remove(3)
+print("After removing 3:", my_set)
+
+Que 5) How do you get length of a set in python?
+Ans = my_set = {1,2,3}
+print(len(my_set))
